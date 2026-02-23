@@ -1,0 +1,218 @@
+﻿@model SthobileMkhabelaCV.Models.MyDetails
+@{
+    ViewData["Title"] = "Home";
+}
+
+@section Styles {
+    <style>
+        .hero {
+            min-height: 92vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: 5rem 0;
+        }
+
+            .hero::before {
+                content: '';
+                position: absolute;
+                top: -200px;
+                right: -200px;
+                width: 600px;
+                height: 600px;
+                background: radial-gradient(circle, rgba(0,229,255,0.07) 0%, transparent 70%);
+                pointer-events: none;
+            }
+
+        .hero-name {
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: clamp(3rem, 10vw, 7rem);
+            line-height: 1;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.15em;
+        }
+
+            .hero-name span {
+                color: var(--accent);
+            }
+
+        .hero-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 2rem;
+        }
+
+        .hero-about {
+            max-width: 560px;
+            color: #9ca3af;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+
+        .hero-avatar {
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            border: 2px solid var(--border);
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 0 60px rgba(0,229,255,0.12);
+        }
+
+        .overview-card {
+            background: var(--bg2);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 2rem;
+            height: 100%;
+            transition: border-color 0.25s, transform 0.25s;
+        }
+
+            .overview-card:hover {
+                border-color: var(--accent);
+                transform: translateY(-5px);
+            }
+
+        .overview-icon {
+            font-size: 1.8rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .overview-heading {
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .overview-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.25rem;
+            line-height: 1.6;
+        }
+
+        .section-divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 4rem 0;
+        }
+    </style>
+}
+
+<div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="row align-items-center w-100 gy-5">
+            <div class="col-lg-8">
+                <p class="hero-title">@Model.ProfessionalTitle</p>
+                <h1 class="hero-name">@Model.Name <span>@Model.Surname</span></h1>
+                <p class="hero-about">@Model.AboutMe</p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#overview" class="btn-outline-accent">View My Work</a>
+                    <a asp-controller="Home" asp-action="About" class="btn-outline-accent" style="border-color:var(--accent2);color:var(--accent2);">Get In Touch</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <img src="@Model.ImageUrl"
+                     alt="@Model.Name @Model.Surname"
+                     class="hero-avatar"
+                     onerror="this.src='https://ui-avatars.com/api/?name=@(Model.Name)+@(Model.Surname)&size=240&background=13161d&color=00e5ff&bold=true'" />
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- OVERVIEW SECTION CARDS -->
+    <section id="overview" style="padding: 3rem 0 5rem;">
+        <p class="section-label">What I Bring</p>
+        <h2 class="section-title">Sections</h2>
+        <div class="accent-line"></div>
+
+        <div class="row g-4">
+
+            <!-- About Me -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-person-circle"></i></div>
+                    <h3 class="overview-heading">About Me</h3>
+                    <p class="overview-desc">A little about who I am, my background, and what drives me as a developer.</p>
+                    <a asp-controller="Home" asp-action="About" class="btn-outline-accent">Read More</a>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-code-slash"></i></div>
+                    <h3 class="overview-heading">Skills</h3>
+                    <p class="overview-desc">Languages, frameworks, and tools I work with — from backend to frontend and beyond.</p>
+                    <a asp-controller="Home" asp-action="Skills" class="btn-outline-accent">View Skills</a>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-folder2-open"></i></div>
+                    <h3 class="overview-heading">Projects</h3>
+                    <p class="overview-desc">Real-world applications I've designed, built, and deployed during my studies.</p>
+                    <a asp-controller="Home" asp-action="Projects" class="btn-outline-accent">View Projects</a>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-mortarboard"></i></div>
+                    <h3 class="overview-heading">Education</h3>
+                    <p class="overview-desc">My academic journey, qualifications, and institutions that shaped my career path.</p>
+                    <a asp-controller="Home" asp-action="Education" class="btn-outline-accent">View Education</a>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-briefcase"></i></div>
+                    <h3 class="overview-heading">Work Experience</h3>
+                    <p class="overview-desc">Internships, part-time roles, and freelance work I've taken on throughout my studies.</p>
+                    <span class="badge-tag">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Volunteering -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-people"></i></div>
+                    <h3 class="overview-heading">Volunteering</h3>
+                    <p class="overview-desc">Community involvement, hackathons, student societies, and leadership roles.</p>
+                    <span class="badge-tag">Coming Soon</span>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-6 col-lg-4">
+                <div class="overview-card">
+                    <div class="overview-icon"><i class="bi bi-envelope-at"></i></div>
+                    <h3 class="overview-heading">Contact</h3>
+                    <p class="overview-desc">Want to collaborate, hire, or just say hello? Reach out — I'd love to connect.</p>
+                    <a asp-controller="Home" asp-action="About" class="btn-outline-accent">Get In Touch</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>

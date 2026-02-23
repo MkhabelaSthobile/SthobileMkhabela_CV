@@ -1,0 +1,111 @@
+﻿@model List<SthobileMkhabelaCV.Models.Education>
+@{
+    ViewData["Title"] = "Education";
+}
+
+@section Styles {
+    <style>
+        .edu-timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+            .edu-timeline::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background: linear-gradient(to bottom, var(--accent), var(--accent2), transparent);
+                border-radius: 2px;
+            }
+
+        .edu-item {
+            position: relative;
+            margin-bottom: 2.5rem;
+        }
+
+            .edu-item::before {
+                content: '';
+                position: absolute;
+                left: -2.45rem;
+                top: 0.4rem;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background: var(--accent);
+                border: 2px solid var(--bg);
+                box-shadow: 0 0 12px rgba(0,229,255,0.4);
+            }
+
+        .edu-card {
+            background: var(--bg2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            transition: border-color 0.25s;
+        }
+
+            .edu-card:hover {
+                border-color: var(--accent);
+            }
+
+        .edu-institution {
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 1.2rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .edu-degree {
+            color: #9ca3af;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .edu-year {
+            display: inline-block;
+            background: var(--bg3);
+            border: 1px solid var(--border);
+            color: var(--accent);
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 0.8rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            letter-spacing: 0.06em;
+        }
+    </style>
+}
+
+<div class="page-wrapper">
+    <a asp-controller="Home" asp-action="Index" class="btn-outline-accent mb-4 d-inline-flex align-items-center gap-2">
+        <i class="bi bi-arrow-left"></i> Back to Home
+    </a>
+
+    <p class="section-label">My Academic Journey</p>
+    <h1 class="section-title">Education</h1>
+    <div class="accent-line"></div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="text-muted">No education records added yet.</p>
+    }
+    else
+    {
+        <div class="edu-timeline">
+            @foreach (var edu in Model.OrderByDescending(e => e.GraduationYear))
+            {
+                <div class="edu-item">
+                    <div class="edu-card">
+                        <h3 class="edu-institution">@edu.InstitutionName</h3>
+                        <p class="edu-degree"><i class="bi bi-award me-1"></i>@edu.Qualification</p>
+                        <p class="edu-description">@edu.Description</p>
+                        <span class="edu-year"><i class="bi bi-calendar3 me-1"></i>Class of @edu.GraduationYear</span>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

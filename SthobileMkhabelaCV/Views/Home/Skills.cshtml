@@ -1,0 +1,99 @@
+﻿@model List<SthobileMkhabelaCV.Models.Skills>
+@{
+    ViewData["Title"] = "Skills";
+    var grouped = Model.GroupBy(s => s.TypeOfSkill);
+}
+
+@section Styles {
+    <style>
+        .skill-card {
+            background: var(--bg2);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            transition: border-color 0.25s, transform 0.25s;
+        }
+
+            .skill-card:hover {
+                border-color: var(--accent);
+                transform: translateX(4px);
+            }
+
+        .skill-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            background: var(--bg3);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .skill-name {
+            font-family: 'Syne', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .skill-desc {
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        .group-label {
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: 1rem;
+            color: var(--accent2);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin: 2.5rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+    </style>
+}
+
+<div class="page-wrapper">
+    <a asp-controller="Home" asp-action="Index" class="btn-outline-accent mb-4 d-inline-flex align-items-center gap-2">
+        <i class="bi bi-arrow-left"></i> Back to Home
+    </a>
+
+    <p class="section-label">What I Know</p>
+    <h1 class="section-title">Skills</h1>
+    <div class="accent-line"></div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p class="text-muted">No skills added yet.</p>
+    }
+    else
+    {
+        @foreach (var group in grouped)
+        {
+            <p class="group-label"><i class="bi bi-tag me-2"></i>@group.Key</p>
+            <div class="row g-3 mb-2">
+                @foreach (var skill in group)
+                {
+                    <div class="col-md-6">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                            <div>
+                                <p class="skill-name">@skill.SkillName</p>
+                                <p class="skill-desc">@skill.SkillDescription</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    }
+</div>

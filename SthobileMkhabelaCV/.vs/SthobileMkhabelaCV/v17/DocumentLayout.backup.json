@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\models\\mydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:models\\mydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\views\\home\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:views\\home\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:models\\education.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:views\\home\\skills.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|c:\\users\\sithobile mkhabela\\source\\repos\\sthobilemkhabelacv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D391100C-7208-4208-A7BC-B2AF91643FA5}|SthobileMkhabelaCV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Models\\MyDetails.cs",
+              "RelativeDocumentMoniker": "Models\\MyDetails.cs",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Models\\MyDetails.cs",
+              "RelativeToolTip": "Models\\MyDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:11:53.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Education.cs",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Models\\Education.cs",
+              "RelativeDocumentMoniker": "Models\\Education.cs",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Models\\Education.cs",
+              "RelativeToolTip": "Models\\Education.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T13:50:17.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswIMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T11:12:21.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T12:29:53.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T10:30:51.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Projects.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Projects.cshtml",
+              "RelativeToolTip": "Views\\Home\\Projects.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswGoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T10:28:04.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Education.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Education.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Education.cshtml",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Education.cshtml",
+              "RelativeToolTip": "Views\\Home\\Education.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAD4v2cAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T10:25:59.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv9oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T12:14:08.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T10:28:28.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Skills.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Skills.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Skills.cshtml",
+              "ToolTip": "C:\\Users\\Sithobile Mkhabela\\source\\repos\\SthobileMkhabelaCV\\Views\\Home\\Skills.cshtml",
+              "RelativeToolTip": "Views\\Home\\Skills.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAADwv2MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T10:27:15.256Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
